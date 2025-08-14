@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "vite preview",
-    "start": "vite",
+    "start": "node init && vite",
     "clean": "rm -rf node_modules package-lock.json",
     "setup": "npm run clean && npm install"
   },
